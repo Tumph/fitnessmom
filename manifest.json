@@ -1,0 +1,17 @@
+{
+    "name": "FitnessMom",
+    "version": "1.0.8",
+    "description": "Let's face it, you are probably not spending enough time working out. Let's change that, with FitnessMom.",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab"
+      ],
+      "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+      },
+      "content_security_policy": "script-src 'self' https://ajax.googleapis.com; object-src 'self'",
+   "icons": {
+       "128": "images/icon.png"
+       }
+  }
